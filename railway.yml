@@ -1,0 +1,20 @@
+# Railway Configuration for Frozen Gen
+# PHP application with MySQL database
+
+version: 2
+
+# Build configuration
+build:
+  buildCommand: |
+    echo "🧊 Building Frozen Gen Application..."
+    echo "✅ PHP application ready for deployment"
+
+# No custom start command needed - Railway auto-detects PHP
+# The application will run on Apache/Nginx automatically
+
+# Health check endpoint
+healthcheckTimeout: 300
+
+# Environment detection
+env:
+  - RAILWAY_ENVIRONMENT=production

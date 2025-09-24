@@ -1,0 +1,37 @@
+# Environment files
+.env
+.env.local
+.env.production
+
+# Database
+*.sql.backup
+database-backup.sql
+
+# Logs
+*.log
+error_log
+access.log
+
+# Cache
+*.cache
+cache/
+tmp/
+
+# IDE files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Node modules (if any)
+node_modules/
+
+# Upload directories (if they contain sensitive files)
+uploads/private/
+
+# Local development files
+inc/database.php.backup

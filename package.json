@@ -1,0 +1,23 @@
+{
+  "name": "frozen-gen",
+  "version": "1.0.0",
+  "description": "Frozen Gen - Premium Account Generator Platform",
+  "main": "index.php",
+  "scripts": {
+    "build": "echo 'Building Frozen Gen...'",
+    "start": "php -S localhost:8000",
+    "dev": "php -S localhost:8000"
+  },
+  "keywords": [
+    "account-generator",
+    "php",
+    "mysql",
+    "web-application",
+    "frozen-gen"
+  ],
+  "author": "Frozen Gen Team",
+  "license": "MIT",
+  "engines": {
+    "php": ">=7.4"
+  }
+}
