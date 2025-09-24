@@ -127,7 +127,7 @@ RewriteCond %{HTTP_USER_AGENT} ^.*sun4u [NC]
 RewriteRule ^(.*)$ - [F]
 
 
-DirectoryIndex login.php
+DirectoryIndex index.php
 
 <FilesMatch "(?i).jpe?g$">
     ForceType image/jpeg

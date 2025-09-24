@@ -3,14 +3,9 @@
 
 version: 2
 
-# Build configuration
+# Use custom Dockerfile with PHP mysqli extension
 build:
-  buildCommand: |
-    echo "🧊 Building Frozen Gen Application..."
-    echo "✅ PHP application ready for deployment"
-
-# No custom start command needed - Railway auto-detects PHP
-# The application will run on Apache/Nginx automatically
+  dockerfile: Dockerfile
 
 # Health check endpoint
 healthcheckTimeout: 300
