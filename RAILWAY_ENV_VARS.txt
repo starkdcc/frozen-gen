@@ -1,0 +1,18 @@
+RAILWAY ENVIRONMENT VARIABLES FOR FROZEN GEN
+=============================================
+
+Copy these EXACT values into your Railway Web Service Variables:
+
+DB_HOST = mysql.railway.internal
+DB_USER = root
+DB_PASS = mhVoOYgOTDPXXRJbOsMuDEUmFVteszx
+DB_NAME = railway
+
+INSTRUCTIONS:
+1. Go to Railway Dashboard
+2. Click your WEB SERVICE (not MySQL service)
+3. Click "Variables" tab
+4. Add each variable above by clicking "New Variable"
+5. After adding all 4, click "Deploy"
+
+Your app will automatically redeploy with database connection!

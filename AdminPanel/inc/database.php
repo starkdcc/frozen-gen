@@ -1,9 +1,9 @@
 <?php
 
-$myhost = "localhost";
-$myuser = "root";
-$mypass = "stark@2009";
-$mydb = "frozen_gen";
+$myhost = "sql301.infinityfree.com";
+$myuser = "if0_40017164";
+$mypass = "pnsgq2paHKKusB";
+$mydb = "if0_40017164_frozen_gen";
 
 $con = mysqli_connect($myhost, $myuser, $mypass, $mydb);
 

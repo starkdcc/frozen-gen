@@ -2,10 +2,10 @@
 
     class database{
         public $db;
-        private $db_host = "localhost";
-        private $db_user = "root";
-        private $db_password = "stark@2009";
-        private $db_name = "frozen_gen";
+        private $db_host = "sql301.infinityfree.com";
+        private $db_user = "if0_40017164";
+        private $db_password = "pnsgq2paHKKusB";
+        private $db_name = "if0_40017164_frozen_gen";
 
         public function connect()
         {
